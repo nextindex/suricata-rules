@@ -32,4 +32,4 @@
 # Licence CC BY-NC-SA 4.0 : https://creativecommons.org/licenses/by-nc-sa/4.0/
 # 🐀 MATA Rat - FQDN
 
-alert dns any any -> any any (msg:"🐾 - ☠ Requête DNS 🌐 - 🎛 C2 🐀 MATA Rat - 🎯 Windows - Linux - macOS - 🇰🇵 Groupe Lazarus"; dns_query; content:"mnmski.cafe24.com"; nocase; reference: url,https://securelist.com/lazarus-on-the-hunt-for-big-game/97757/; reference: url,https://malpedia.caad.fkie.fraunhofer.de/actor/lazarus_group; metadata:created_at 2020_07_30, updated_at 2020_07_30; sid:2020073002; rev:1; classtype:trojan-activity;)
+alert dns any any -> any any (msg:"🐾 - ☠ DNS-Anfrage 🌐 - 🎛 C2 🐀 MATA Rat - 🎯 Windows - Linux - macOS - 🇰🇵 Groupe Lazarus"; dns_query; content:"mnmski.cafe24.com"; nocase; reference: url,https://securelist.com/lazarus-on-the-hunt-for-big-game/97757/; reference: url,https://malpedia.caad.fkie.fraunhofer.de/actor/lazarus_group; metadata:created_at 2020_07_30, updated_at 2020_07_30; sid:2020073002; rev:1; classtype:trojan-activity;)

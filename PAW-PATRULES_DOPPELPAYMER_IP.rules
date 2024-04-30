@@ -32,4 +32,4 @@
 # Licence CC BY-NC-SA 4.0 : https://creativecommons.org/licenses/by-nc-sa/4.0/
 # 🔒 Rançongiciel Doppel Paymer - IP
 
-alert ip any any -> 194.99.22.146 any (msg:"🐾 - 🚨 Connexion sortante ↗ 🎛 C2 🔒 Rançongiciel Doppel Paymer / Powershell Empire"; reference: url,https://twitter.com/AltShiftPrtScn/status/1225881038183899137; reference: url,https://malpedia.caad.fkie.fraunhofer.de/details/win.doppelpaymer; metadata:created_at 2020_07_05, updated_at 2020_07_05; sid:2020070519; rev:1; classtype:trojan-activity;)
+alert ip any any -> 194.99.22.146 any (msg:"🐾 - 🚨 Ausgehende Verbindung ↗ 🎛 C2 🔒 Rançongiciel Doppel Paymer / Powershell Empire"; reference: url,https://twitter.com/AltShiftPrtScn/status/1225881038183899137; reference: url,https://malpedia.caad.fkie.fraunhofer.de/details/win.doppelpaymer; metadata:created_at 2020_07_05, updated_at 2020_07_05; sid:2020070519; rev:1; classtype:trojan-activity;)

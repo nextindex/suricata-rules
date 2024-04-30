@@ -32,4 +32,4 @@
 # Licence CC BY-NC-SA 4.0 : https://creativecommons.org/licenses/by-nc-sa/4.0/
 # 👀 Spyware Gozi - FQDN
 
-alert dns any any -> any any (msg:"🐾 - ☠ Requête DNS 🌐 - vilecorbeanca.xyz - 🎛C2 👀 Spyware Gozi"; dns_query; content:"vilecorbeanca.xyz"; nocase; reference: url,https://bazaar.abuse.ch/sample/c7552fe5ed044011aa09aebd5769b2b9f3df0faa8adaab42ef3bfff35f5190aa/; reference: url,https://malpedia.caad.fkie.fraunhofer.de/details/win.gozi; metadata:created_at 2020_07_14, updated_at 2020_07_14; sid:2020071406; rev:1; classtype:trojan-activity;)
+alert dns any any -> any any (msg:"🐾 - ☠ DNS-Anfrage 🌐 - vilecorbeanca.xyz - 🎛C2 👀 Spyware Gozi"; dns_query; content:"vilecorbeanca.xyz"; nocase; reference: url,https://bazaar.abuse.ch/sample/c7552fe5ed044011aa09aebd5769b2b9f3df0faa8adaab42ef3bfff35f5190aa/; reference: url,https://malpedia.caad.fkie.fraunhofer.de/details/win.gozi; metadata:created_at 2020_07_14, updated_at 2020_07_14; sid:2020071406; rev:1; classtype:trojan-activity;)

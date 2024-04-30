@@ -32,5 +32,5 @@
 # Licence CC BY-NC-SA 4.0 : https://creativecommons.org/licenses/by-nc-sa/4.0/
 # 🔒 Rançongiciel Wannacry - IP
 
-alert ip any any -> 104.16.173.80 any (msg:"🐾 - 🚨 Connexion sortante ↗ 🎛 C2 Rançongiciel Wannacry"; reference: url,https://any.run/malware-trends/wannacry; reference: url,https://malpedia.caad.fkie.fraunhofer.de/details/win.wannacryptor; metadata:created_at 2020_08_01, updated_at 2020_08_01; sid:2020080101; rev:1; classtype:trojan-activity;)
-alert ip any any -> 104.17.244.81 any (msg:"🐾 - 🚨 Connexion sortante ↗ 🎛 C2 Rançongiciel Wannacry"; reference: url,https://any.run/malware-trends/wannacry; reference: url,https://malpedia.caad.fkie.fraunhofer.de/details/win.wannacryptor; metadata:created_at 2020_08_01, updated_at 2020_08_01; sid:2020080102; rev:1; classtype:trojan-activity;)
+alert ip any any -> 104.16.173.80 any (msg:"🐾 - 🚨 Ausgehende Verbindung ↗ 🎛 C2 Rançongiciel Wannacry"; reference: url,https://any.run/malware-trends/wannacry; reference: url,https://malpedia.caad.fkie.fraunhofer.de/details/win.wannacryptor; metadata:created_at 2020_08_01, updated_at 2020_08_01; sid:2020080101; rev:1; classtype:trojan-activity;)
+alert ip any any -> 104.17.244.81 any (msg:"🐾 - 🚨 Ausgehende Verbindung ↗ 🎛 C2 Rançongiciel Wannacry"; reference: url,https://any.run/malware-trends/wannacry; reference: url,https://malpedia.caad.fkie.fraunhofer.de/details/win.wannacryptor; metadata:created_at 2020_08_01, updated_at 2020_08_01; sid:2020080102; rev:1; classtype:trojan-activity;)

@@ -32,4 +32,4 @@
 # Licence CC BY-NC-SA 4.0 : https://creativecommons.org/licenses/by-nc-sa/4.0/
 # TerraLoader - FQDN
 
-alert dns any any -> any any (msg:"🐾 - ☠ Requête DNS 🌐 - 🎛 C2 TerraLoader"; dns_query; content:"maps.doaglas.com"; nocase; reference: url,https://twitter.com/VK_Intel/status/1286747453849468929; reference: url,https://malpedia.caad.fkie.fraunhofer.de/details/win.terra_loader; metadata:created_at 2020_07_25, updated_at 2020_07_25; sid:2020072506; rev:1; classtype:trojan-activity;)
+alert dns any any -> any any (msg:"🐾 - ☠ DNS-Anfrage 🌐 - 🎛 C2 TerraLoader"; dns_query; content:"maps.doaglas.com"; nocase; reference: url,https://twitter.com/VK_Intel/status/1286747453849468929; reference: url,https://malpedia.caad.fkie.fraunhofer.de/details/win.terra_loader; metadata:created_at 2020_07_25, updated_at 2020_07_25; sid:2020072506; rev:1; classtype:trojan-activity;)
